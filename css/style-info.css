@@ -838,20 +838,6 @@ sup {
   text-align: center;
 }
 
-#info-wrap .dark-hero:after {
-  z-index: 5;
-  position: absolute;
-  top: 98.1%;
-  left: 50%;
-  margin-left: -50px;
-  content: "";
-  width: 0;
-  height: 0;
-  border-top: solid 50px #20232d;
-  border-left: solid 50px transparent;
-  border-right: solid 50px transparent;
-}
-
 #info-wrap .content {
   padding: 0;
 }
