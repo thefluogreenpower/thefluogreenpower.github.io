@@ -89,30 +89,6 @@ $(document).ready(function () {
   /* 3. Action Buttons ................... */
   /* ------------------------------------- */
 
-  $("a#go-help-us").on("click", function () {
-    setTimeout(function () {
-      $("#mcs_container").mCustomScrollbar("scrollTo", "#help-us-anchor", {
-        scrollInertia: 500,
-        callbacks: false,
-      });
-    }, 350);
-  });
-
-  $("a#go-receive-donations").on("click", function () {
-    setTimeout(function () {
-      $("#mcs_container").mCustomScrollbar(
-        "scrollTo",
-        "#receive-donations-form-anchor",
-        {
-          scrollInertia: 500,
-          callbacks: false,
-        }
-      );
-    }, 350);
-  });
-
-  // Youtube Variant
-
   $(".expand-player").on("click", function () {
     $("#home-wrap").velocity(
       {
