@@ -64,13 +64,19 @@
 
     <!-- START - Home Part -->
     <div class="main-menu text-intro opacity-0">
-      <a href="#project">Il progetto</a>
+      <a href="#" class="go-to-section" data-target="#project-anchor"
+        >Il progetto</a
+      >
       |
-      <a href="#shield">Le visiere</a>
+      <a href="#" class="go-to-section" data-target="#shield-anchor"
+        >Le visiere</a
+      >
       |
-      <a href="#photos">Foto</a>
+      <a href="#" class="go-to-section" data-target="#photos-anchor">Foto</a>
       |
-      <a href="#thanksto">Ringraziamenti</a>
+      <a href="#" class="go-to-section" data-target="#thanksto-anchor"
+        >Ringraziamenti</a
+      >
     </div>
 
     <section id="home-wrap">
@@ -94,13 +100,17 @@
           possibile grazie alla voglia di mettersi in gioco e aiutare.
         </p>
 
-        <a href="#help-us-anchor" class="light-btn text-intro opacity-0"
+        <a
+          href="#"
+          data-target="#help-us-anchor"
+          class="go-to-section light-btn text-intro opacity-0"
           >Aiutaci a donare</a
         >
 
         <a
-          href="#receive-donations-form-anchor"
-          class="action-btn trigger text-intro opacity-0"
+          href="#"
+          data-target="#receive-donations-form-anchor"
+          class="go-to-section action-btn trigger text-intro opacity-0"
           >Richiedi una donazione</a
         >
       </div>
@@ -110,7 +120,7 @@
 
     <!-- START - More Informations Part -->
     <section id="info-wrap" class="show-info">
-      <div id="project" class="hero">
+      <div id="project-anchor" class="hero">
         <div class="center-text">
           <h3 class="darky">Il Progetto</h3>
 
@@ -153,7 +163,7 @@
         </div>
       </div>
 
-      <div id="shield" class="hero">
+      <div id="shield-anchor" class="hero">
         <div class="center-text">
           <h3 class="darky">Le Visiere</h3>
 
@@ -221,7 +231,7 @@
       </div>
 
       <div class="content">
-        <div id="photos" class="photo-line">
+        <div id="photos-anchor" class="photo-line">
           <div
             class="my-gallery"
             itemscope

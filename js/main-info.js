@@ -89,6 +89,16 @@ $(document).ready(function () {
   /* 3. Action Buttons ................... */
   /* ------------------------------------- */
 
+  $(".go-to-section").on("click", function () {
+    var target = $(this).data("target");
+    setTimeout(function () {
+      $("#mcs_container").mCustomScrollbar("scrollTo", target, {
+        scrollInertia: 500,
+        callbacks: false,
+      });
+    }, 350);
+  });
+
   $(".expand-player").on("click", function () {
     $("#home-wrap").velocity(
       {
@@ -167,9 +177,9 @@ $(document).ready(function () {
     if (ifTouchDevices) {
       $("body").addClass("scroll-touch");
 
-      $("a#go-contact").on("click", function () {
+      $(".go-to-section").on("click", function (event) {
         event.preventDefault();
-        var target = "#" + this.getAttribute("data-target");
+        var target = $(this).data("target");
         $("html, body").animate(
           {
             scrollTop: $(target).offset().top,

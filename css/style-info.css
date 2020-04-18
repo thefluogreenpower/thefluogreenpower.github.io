@@ -301,7 +301,6 @@ html {
   padding: 0;
   -webkit-tap-highlight-color: transparent;
   width: 100%;
-  scroll-behavior: smooth;
 }
 
 body,
