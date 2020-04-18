@@ -448,4 +448,7 @@ $(document).ready(function () {
 
   // execute above function
   initPhotoSwipeFromDOM(".my-gallery");
+
+  // responsive youtube box
+  $(".youtube-video").fitVids();
 });

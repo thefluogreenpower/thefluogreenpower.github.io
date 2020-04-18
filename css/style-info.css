@@ -600,7 +600,7 @@ sup {
 
 .brand-logo {
   position: relative;
-  max-width: 250px;
+  max-width: 300px;
   margin: auto;
   margin-bottom: 15px;
 }
@@ -1578,8 +1578,44 @@ sup {
 }
 
 /* ------------------------------------- */
-/* 5. Contact .......................... */
+/* 5. Box .......................... */
 /* ------------------------------------- */
+
+.info-box {
+  margin-bottom: 0;
+}
+
+.info-box .item-map {
+  padding: 0;
+}
+
+.info-box .item-map:first-child {
+  padding-left: 15px;
+}
+
+.info-box .item-map:last-child {
+  padding-right: 15px;
+}
+
+.info-box .item-map .box-item {
+  padding: 15px 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+.info-box .item-map .box-item i {
+  font-size: 1em;
+}
+
+.info-box .item-map .box-item a {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.info-box .item-map .box-item a:hover {
+  color: #0fe0ba;
+}
+
 .info-contact {
   margin-bottom: 0;
 }
