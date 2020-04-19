@@ -1805,7 +1805,7 @@ footer p {
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #757a86;
+  color: #757a86 !important;
 }
 
 /* ------------------------------------- */
@@ -2530,6 +2530,7 @@ footer p {
     margin-bottom: 15px;
   }
   .action-btn {
+    margin-top: 20px;
     max-width: 70%;
     min-width: 60%;
   }
