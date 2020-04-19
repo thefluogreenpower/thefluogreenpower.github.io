@@ -26,6 +26,39 @@ $(window).load(function () {
         {
           src: "img/testimonials/slideshow/vvff_arona.jpeg",
         },
+        {
+          src: "img/testimonials/slideshow/grazie_sos.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/gruppo_pediatri_varese_como_2.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/ospedale_lodi.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/ospedale_ostuni_2.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/ospedale_ostuni_6.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/ospedale_valduce_3.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/pediatre_varese_1.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/ps_gallarate_1.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/ps_tradate_1.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/rianimazione_varese_1.jpeg",
+        },
+        {
+          src: "img/testimonials/slideshow/sos_appiano_gentile.jpeg",
+        },
       ],
 
       // Delay beetween slides in milliseconds.
