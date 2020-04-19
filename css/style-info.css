@@ -24,7 +24,7 @@
 @import url(jquery.mCustomScrollbar.css);
 @import url(vegas.css);
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600,700|Raleway:400,200,600|Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600,700|Raleway:400,200,600|Bangers");
 /*
 * http://meyerweb.com/eric/tools/css/reset/ 
 * v2.0 | 20110126
@@ -189,7 +189,7 @@ table {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 400;
-  color: #4d515f;
+  color: #bbc0c3;
   letter-spacing: 1px;
   font-family: Montserrat, "Helvetica Neue", "Lucida Grande", Arial, Verdana,
     sans-serif;
@@ -610,7 +610,7 @@ sup {
   margin-left: -10px;
   color: #ffffff;
   text-transform: none;
-  font-family: Pacifico, "Helvetica Neue", "Lucida Grande", Arial, Verdana,
+  font-family: Bangers, "Helvetica Neue", "Lucida Grande", Arial, Verdana,
     sans-serif;
 }
 
@@ -775,7 +775,7 @@ sup {
 }
 
 #info-wrap p {
-  color: #747c83;
+  color: #d6d9db;
 }
 
 #info-wrap.show-info {
@@ -864,7 +864,7 @@ sup {
 }
 
 #info-wrap p {
-  color: #747c83;
+  color: #d6d9db;
 }
 
 #info-wrap .hero {
