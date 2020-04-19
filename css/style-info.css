@@ -746,6 +746,10 @@ sup {
   transform: scale(1.2);
 }
 
+.info-wrap-override-lighty p {
+  color: #747c83 !important;
+}
+
 #info-wrap {
   background: #ffffff;
   overflow: auto;
@@ -772,10 +776,6 @@ sup {
 #info-wrap h6 {
   color: #000000;
   font-size: 50px;
-}
-
-#info-wrap p {
-  color: #d6d9db;
 }
 
 #info-wrap.show-info {
