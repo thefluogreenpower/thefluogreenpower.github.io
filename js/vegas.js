@@ -59,6 +59,9 @@ $(window).load(function () {
         {
           src: "img/testimonials/slideshow/sos_appiano_gentile.jpeg",
         },
+        {
+          src: "img/testimonials/slideshow/medici_farmacia_ps_besnate.jpg",
+        },
       ],
 
       // Delay beetween slides in milliseconds.
